@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(78, 21, 134);
+    color: #fff;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+header h1{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 40px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-family: 'Cinzel', serif;
+}
+
+#nome-game{
+    font-size: 30px;
+}
+
+.social-links{
+    margin-top: 8px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+body, input, textarea{
+    font-family: 'Preahvihear', sans-serif;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+
+.capa-jogo{
+    margin-right: 32px;
+}
+
+#sistemasolar p{
+    align-items: flex-end;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 800px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: rgb(78, 21, 134);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover, #saiba-mais:hover{
+    background-color: rgb(114, 29, 199);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(102, 16, 189);
+}
+
+.capa-jogo{
+    margin-right: 32px;
+    height: 460PX;
+}
+
+#outerwilds, #seaofstars{
+    height: 345px;
+}
+
+#hollowknight, #finalfantasyxiv{
+    height: 352px;
+    margin-bottom: 90px;
+}
+
+#seaofstars{
+    margin-bottom: 90px;
+}
+
+section .container a{
+    background-color: rgb(78, 21, 134);
+    color: #fff;
+    padding: 6px;
+    display: inline;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(78, 21, 134);
+    color: #fff;
+    padding: 16px 0;
+}
